@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "help for IT office",
-    "currentPage": "page22.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -110,7 +110,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "src": "@PROJECT_PATH@/assets/images/pexels-photo-1-1400x933.jpg",
               "link": "",
               "alt": "",
               "title": "",
