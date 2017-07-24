@@ -1,25 +1,25 @@
-#ext_menu-0 .mbr-brand__name {
+#ext_menu-4 .mbr-brand__name {
   font-size: 16px;
 }
-#ext_menu-0.mbr-navbar--stuck .mbr-navbar__section {
+#ext_menu-4.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
 }
-#ext_menu-0 .mbr-navbar__section {
+#ext_menu-4 .mbr-navbar__section {
   background: #2c2c2c;
 }
-#ext_menu-0 .mbr-navbar__hamburger {
+#ext_menu-4 .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#msg-box4-1 .mbr-header__text {
-  color: #ffffff;
-  text-align: left;
-  font-size: 25px;
+#msg-box3-5 .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #f97352;
 }
-#msg-box4-1 .mbr-header__subtext {
-  color: #ffffff;
+#msg-box3-5 .mbr-header .mbr-header__subtext {
+  text-align: center;
 }
-#msg-box4-1 .mbr-article {
-  color: #ffffff;
+#msg-box3-5 .mbr-article P {
+  font-size: 15px;
+  color: #7c706b;
 }
 #contacts1-l P {
   color: #ffffff;
@@ -58,30 +58,70 @@
 #contacts1-l P {
   color: #ffffff;
 }
-#ext_menu-4 .mbr-brand__name {
+#ext_menu-15 .mbr-brand__name {
   font-size: 16px;
 }
-#ext_menu-4.mbr-navbar--stuck .mbr-navbar__section {
+#ext_menu-15.mbr-navbar--stuck .mbr-navbar__section {
   background: #2c2c2c;
 }
-#ext_menu-4 .mbr-navbar__section {
+#ext_menu-15 .mbr-navbar__section {
   background: #2c2c2c;
 }
-#ext_menu-4 .mbr-navbar__hamburger {
+#ext_menu-15 .mbr-navbar__hamburger {
   color: #ffffff;
 }
-#msg-box3-5 .mbr-header .mbr-header__text {
-  text-align: center;
+#header3-16 H3 {
   color: #f97352;
 }
-#msg-box3-5 .mbr-header .mbr-header__subtext {
-  text-align: center;
-}
-#msg-box3-5 .mbr-article P {
-  font-size: 15px;
+#content1-17 P {
   color: #7c706b;
+  font-size: 15px;
 }
-#contacts1-l P {
+#contacts1-19 P {
+  color: #ffffff;
+}
+#ext_menu-z .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-z.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-z .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-z .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#header3-13 H3 {
+  color: #7ac673;
+}
+#content1-10 P {
+  color: #7c706b;
+  font-size: 15px;
+}
+#contacts1-12 P {
+  color: #ffffff;
+}
+#ext_menu-v .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-v.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-v .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-v .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#header3-14 H3 {
+  color: #000000;
+}
+#content1-x P {
+  color: #7c706b;
+  font-size: 15px;
+}
+#contacts1-w P {
   color: #ffffff;
 }
 #msg-box2-1d .mbr-header .mbr-header__text {
@@ -119,150 +159,6 @@
   color: #252525;
 }
 #contacts1-l P {
-  color: #ffffff;
-}
-#ext_menu-8 .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-8.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-8 .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-8 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#msg-box4-3r .mbr-header__text {
-  color: #000000;
-}
-#msg-box4-3r .mbr-header__subtext {
-  color: #ffffff;
-}
-#msg-box4-3r .mbr-article {
-  color: #7c706b;
-}
-#msg-box4-3r .mbr-article P {
-  color: #7c706b;
-  font-size: 16px;
-}
-#contacts3-e P {
-  color: #ffffff;
-  font-size: 16px;
-}
-#contacts3-e UL {
-  color: #ffffff;
-  font-size: 16px;
-}
-#form2-37 .mbr-header__text {
-  font-size: 20px;
-}
-#social-buttons1-b .mbr-header__text {
-  font-size: 15px;
-}
-#ext_menu-v .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-v.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-v .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-v .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#header3-14 H3 {
-  color: #000000;
-}
-#content1-x P {
-  color: #7c706b;
-  font-size: 15px;
-}
-#contacts1-w P {
-  color: #ffffff;
-}
-#ext_menu-z .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-z.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-z .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-z .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#header3-13 H3 {
-  color: #7ac673;
-}
-#content1-10 P {
-  color: #7c706b;
-  font-size: 15px;
-}
-#contacts1-12 P {
-  color: #ffffff;
-}
-#ext_menu-15 .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-15.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-15 .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-15 .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#header3-16 H3 {
-  color: #f97352;
-}
-#content1-17 P {
-  color: #7c706b;
-  font-size: 15px;
-}
-#contacts1-19 P {
-  color: #ffffff;
-}
-#msg-box2-1h .mbr-header .mbr-header__text {
-  color: #f97352;
-}
-#msg-box2-1h .mbr-article {
-  color: #252525;
-}
-#features1-1g P {
-  font-size: 13px;
-  color: #7c706b;
-}
-#features1-1g .mbr-section__col .mbr-header__text {
-  color: #000000;
-}
-#msg-box3-1l .mbr-header .mbr-header__text {
-  text-align: center;
-  color: #f97352;
-}
-#msg-box3-1l .mbr-header .mbr-header__subtext {
-  text-align: center;
-}
-#msg-box3-1l .mbr-article P {
-  font-size: 13px;
-  color: #7c706b;
-}
-#ext_menu-1e .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-1e.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-1e .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-1e .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#contacts1-1f P {
   color: #ffffff;
 }
 #msg-box2-1m .mbr-header .mbr-header__text {
@@ -380,6 +276,45 @@
   color: #ffffff;
 }
 #contacts1-20 P {
+  color: #ffffff;
+}
+#msg-box2-1h .mbr-header .mbr-header__text {
+  color: #f97352;
+}
+#msg-box2-1h .mbr-article {
+  color: #252525;
+}
+#features1-1g P {
+  font-size: 13px;
+  color: #7c706b;
+}
+#features1-1g .mbr-section__col .mbr-header__text {
+  color: #000000;
+}
+#msg-box3-1l .mbr-header .mbr-header__text {
+  text-align: center;
+  color: #f97352;
+}
+#msg-box3-1l .mbr-header .mbr-header__subtext {
+  text-align: center;
+}
+#msg-box3-1l .mbr-article P {
+  font-size: 13px;
+  color: #7c706b;
+}
+#ext_menu-1e .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-1e.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-1e .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-1e .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#contacts1-1f P {
   color: #ffffff;
 }
 #msg-box2-21 .mbr-header .mbr-header__text {
@@ -554,28 +489,6 @@
 #contacts1-2p P {
   color: #ffffff;
 }
-#ext_menu-2r .mbr-brand__name {
-  font-size: 16px;
-}
-#ext_menu-2r.mbr-navbar--stuck .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-2r .mbr-navbar__section {
-  background: #2c2c2c;
-}
-#ext_menu-2r .mbr-navbar__hamburger {
-  color: #ffffff;
-}
-#header3-2s H3 {
-  color: #f97352;
-}
-#content1-2t P {
-  color: #7c706b;
-  font-size: 15px;
-}
-#contacts1-2v P {
-  color: #ffffff;
-}
 #ext_menu-2w .mbr-brand__name {
   font-size: 16px;
 }
@@ -596,6 +509,28 @@
   font-size: 15px;
 }
 #contacts1-30 P {
+  color: #ffffff;
+}
+#ext_menu-2r .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-2r.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-2r .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-2r .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#header3-2s H3 {
+  color: #f97352;
+}
+#content1-2t P {
+  color: #7c706b;
+  font-size: 15px;
+}
+#contacts1-2v P {
   color: #ffffff;
 }
 #ext_menu-31 .mbr-brand__name {
@@ -656,5 +591,70 @@
   font-size: 15px;
 }
 #contacts1-3p P {
+  color: #ffffff;
+}
+#ext_menu-8 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-8.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-8 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-8 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#msg-box4-3r .mbr-header__text {
+  color: #000000;
+}
+#msg-box4-3r .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-3r .mbr-article {
+  color: #7c706b;
+}
+#msg-box4-3r .mbr-article P {
+  color: #7c706b;
+  font-size: 16px;
+}
+#contacts3-e P {
+  color: #ffffff;
+  font-size: 16px;
+}
+#contacts3-e UL {
+  color: #ffffff;
+  font-size: 16px;
+}
+#form2-37 .mbr-header__text {
+  font-size: 20px;
+}
+#social-buttons1-b .mbr-header__text {
+  font-size: 15px;
+}
+#ext_menu-0 .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-0.mbr-navbar--stuck .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-0 .mbr-navbar__section {
+  background: #2c2c2c;
+}
+#ext_menu-0 .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#msg-box4-1 .mbr-header__text {
+  color: #ffffff;
+  text-align: left;
+  font-size: 25px;
+}
+#msg-box4-1 .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-1 .mbr-article {
+  color: #ffffff;
+}
+#contacts1-l P {
   color: #ffffff;
 }

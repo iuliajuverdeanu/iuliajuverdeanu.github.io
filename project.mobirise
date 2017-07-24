@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "help for IT office",
-    "currentPage": "index.html",
+    "currentPage": "Contact.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -15,14 +15,11 @@
     "noImageResize": ""
   },
   "pages": {
-    "index.html": {
+    "Despre_noi.html": {
       "settings": {
-        "main": true,
-        "title": "Acasă",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
+        "meta_descr": "Externalizăm integral sau lucrăm alături de departamente IT interne, acoperim riscurile informatice, oferim soluții pentru situațiile de nefuncționare a sistemelor IT și suportul tehnic necesar pentru a evita întreruperile de activitate.",
+        "title": "help for IT office Despre noi",
+        "order": 1
       },
       "components": [
         {
@@ -68,89 +65,64 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
               "linkInNewWindow": false,
               "name": "features",
               "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
               "color": "#f97352"
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-0"
+          "_anchor": "ext_menu-4"
         },
         {
-          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#f97352"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "font-size": "15px",
+              "color": "#7c706b"
+            }
+          },
           "_params": {
             "showTitle": true,
             "showMeta": false,
+            "showCaption": "noCaption",
             "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "imageSize": 50,
+            "showButton": true,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
             "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#f97352",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "darkBackground": false,
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-4-1400x933.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "HELP FOR IT OFFICE<br><br>",
-          "text": "<p>Tehnologia îți dă bătăi de cap?</p><p>Las-o în grija noastră!</p><p><br></p><p>Îți oferim consultanță, achiziție, configurare, mentenanță și service pentru hardware, software, rețea și securitate IT.</p><p><br></p>",
+          "title": "DESPRE NOI",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><br></p><p>De peste 12 ani oferim suport IT&amp;C companiilor și le susținem obiectivele de afaceri:&nbsp;<b>externalizăm </b>integral sau lucrăm alături de departamente <b>I</b>T interne,<b> acoperim riscurile </b>informatice, oferim <b>soluții </b>pentru situațiile de nefuncționare a sistemelor IT și suportul <b>tehnic </b>necesar pentru a evita întreruperile de activitate.</p><p>Suntem o echipă <b>pasionată </b>de IT&amp;C și se vede în rezultatele pe care le obținem.<br></p><p>&nbsp;</p><p>Partenerii noștri obțin:</p><p>&nbsp;- Cu<b> 80%</b> mai puține întreruperi ale activității;<br></p><p>&nbsp;- Monitorizare <b>permanentă </b>a soluțiilor IT, 24/7;\n</p><p>&nbsp;- Timp de rezolvare în mai puțin de o oră pentru <b>90%</b> din cererile de suport IT;\n</p><p><b>&nbsp;- Siguranța </b>datelor: salvări de date în timp real;\n</p><p>&nbsp;- Garantarea securității informatice printr-un sistem de identificare <b>proactivă </b>a atacurilor informatice;\n</p><p><b>&nbsp;- Control </b>detaliat al activității de suport IT și <b>rapoarte </b>de livrare pentru decizii manageriale bazate pe informații concrete;\n</p><p>&nbsp;- Reducerea cheltuielilor alocate IT-ului și <b>buget previzibil </b>prin partenerii care ne susțin.\n</p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; CASA TA &nbsp; &nbsp;</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">AFACEREA TA</a>",
           "_tags": [
             "Theme"
           ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#ffffff",
-              "text-align": "left",
-              "font-size": "25px"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#ffffff"
-            }
-          },
-          "headerAlign": "left",
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">AFLĂ MAI MULTE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">CASA TA</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">AFACEREA TA</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-1"
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-5"
         },
         {
           "_params": {
@@ -203,9 +175,9 @@
         }
       ]
     },
-    "page1.html": {
+    "Casa_Ta.html": {
       "settings": {
-        "meta_descr": "Website Creator Description",
+        "meta_descr": "Oferim suport, service/ reparatii pentru laptop, calculator, tableta smatphone, imprimanta, instalam sisteme de operare, software, ne ocupam de devirusare.\nPoti opta pentru un abonament lunar cu preturi foarte mici.",
         "title": "Servicii IT pentru Casa Ta",
         "order": 2
       },
@@ -598,11 +570,11 @@
         }
       ]
     },
-    "page2.html": {
+    "Premium_Casa_Ta.html": {
       "settings": {
-        "meta_descr": "#suport IT&C \n#riscuri informatice \n#soluții  sistem IT  \n#suportul tehnic \n#întreruperile de activitate\n#echipă pasionată\n#Parteneri\n #Cu 80% mai puține întreruperi ale activității;\n#Monitorizare permanentă \n#24/7\n#Siguranța date\n#securitate informatica\n #Control \n #rapoarte  \n#Reducerea cheltuielilor IT \n#buget previzibil \n",
-        "title": "help for IT office Despre noi",
-        "order": 1
+        "meta_descr": "Cu acest abonament uiti de grija tehnologiei.\nCum sa intretii aparatura? Cum sa o repari indiferent de ora? \nProgram non-stop.",
+        "title": "servicii incluse casa ta premium",
+        "order": 5
       },
       "components": [
         {
@@ -648,64 +620,57 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": 0,
               "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
               "color": "#f97352"
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-4"
+          "_anchor": "ext_menu-15"
         },
         {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#f97352"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            },
-            ".mbr-article P": {
-              "font-size": "15px",
-              "color": "#7c706b"
-            }
-          },
           "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": false,
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showMeta": true
           },
-          "title": "DESPRE NOI",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><br></p><p>De peste 12 ani oferim suport IT&amp;C companiilor și le susținem obiectivele de afaceri:&nbsp;<b>externalizăm </b>integral sau lucrăm alături de departamente <b>I</b>T interne,<b> acoperim riscurile </b>informatice, oferim <b>soluții </b>pentru situațiile de nefuncționare a sistemelor IT și suportul <b>tehnic </b>necesar pentru a evita întreruperile de activitate.</p><p>Suntem o echipă <b>pasionată </b>de IT&amp;C și se vede în rezultatele pe care le obținem.<br></p><p>&nbsp;</p><p>Partenerii noștri obțin:</p><p>&nbsp;- Cu<b> 80%</b> mai puține întreruperi ale activității;<br></p><p>&nbsp;- Monitorizare <b>permanentă </b>a soluțiilor IT, 24/7;\n</p><p>&nbsp;- Timp de rezolvare în mai puțin de o oră pentru <b>90%</b> din cererile de suport IT;\n</p><p><b>&nbsp;- Siguranța </b>datelor: salvări de date în timp real;\n</p><p>&nbsp;- Garantarea securității informatice printr-un sistem de identificare <b>proactivă </b>a atacurilor informatice;\n</p><p><b>&nbsp;- Control </b>detaliat al activității de suport IT și <b>rapoarte </b>de livrare pentru decizii manageriale bazate pe informații concrete;\n</p><p>&nbsp;- Reducerea cheltuielilor alocate IT-ului și <b>buget previzibil </b>prin partenerii care ne susțin.\n</p><p><br></p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">&nbsp; &nbsp; CASA TA &nbsp; &nbsp;</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">AFACEREA TA</a>",
+          "title": "PACHET PREMIUM<br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
+          "meta": "",
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-5"
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#f97352"
+            }
+          },
+          "_anchor": "header3-16"
+        },
+        {
+          "text": "<p><br></p><p>• Diagnosticare hardware/ software<br></p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>\n</p><p>•\tVerificare și configurare CATV</p><p>•\tVerificare, configurare Sistem de supraveghere (până la 4 camere)</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 5 intervenții remote gratuite pe lună</p><p>•\t1 deplasare gratuită la client</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)</p><p>\n</p><p>•\tSuport 24/24</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#7c706b",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "content1-17"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-18"
         },
         {
           "_params": {
@@ -732,12 +697,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": "80",
               "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
               "color": "#f97352",
               "newWindow": false
             }
@@ -749,7 +714,7 @@
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-l",
+          "_anchor": "contacts1-19",
           "_styles": {
             "P": {
               "color": "#ffffff"
@@ -758,7 +723,313 @@
         }
       ]
     },
-    "page3.html": {
+    "Standard_Casa_Ta.html": {
+      "settings": {
+        "meta_descr": "In aceste abonamente este inclusa si o curatare de laptop/ PC.",
+        "title": "servicii incluse casa ta standard",
+        "order": 4
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-z"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "PACHET STANDARD <br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-13",
+          "_styles": {
+            "H3": {
+              "color": "#7ac673"
+            }
+          }
+        },
+        {
+          "text": "<p><br></p><p>• Diagnosticare hardware/ software<br></p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>\n</p><p>•\tVerificare și configurare CATV</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 3 intervenții remote gratuite pe lună</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)\n</p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#7c706b",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "content1-10"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-11"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": "80",
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-12",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "Basic_Casa_Ta.html": {
+      "settings": {
+        "meta_descr": "Un abonament pentru service IT foarte accesibil. Interventii remote, deplasari la client, raspuns rapid.",
+        "title": "servicii incluse casa ta basic",
+        "order": 3
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-v"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "PACHET BASIC<span style=\"font-weight: normal;\"> </span><br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-14",
+          "_styles": {
+            "H3": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "text": "<p><br></p><p>•\tDiagnosticare hardware/ software</p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 1 intervenție remote gratuită pe lună</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)\n</p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-x",
+          "_styles": {
+            "P": {
+              "color": "#7c706b",
+              "font-size": "15px"
+            }
+          }
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-y"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": "80",
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-w",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "Afacerea_Ta.html": {
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "Servicii IT pentru Afacerea Ta",
@@ -1374,1113 +1645,7 @@
         }
       ]
     },
-    "page4.html": {
-      "settings": {
-        "meta_descr": "Web Site Maker Description",
-        "title": "Contact",
-        "order": 20
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-8"
-        },
-        {
-          "_inherit": "msg-box5",
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false,
-            "inverse": false,
-            "imageSize": 50,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "class": "mbr-figure__img",
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-3-1400x933.jpg",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "HAI SĂ NE CUNOAȘTEM!",
-          "text": "<p>Dacă ai întrebări despre noi, despre serviciile noastre sau pur și simplu vrei un sfat, sună-ne sau scrie-ne. Îți vom răspunde în cel mai scurt timp.</p><p><br></p><p>Echipa HELP FOR IT OFFICE</p><p><br></p><p>Email: office@help-it-office.com\n</p><p>Telefon: +40 0773 951 894</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-header__text": {
-              "color": "#000000"
-            },
-            ".mbr-header__subtext": {
-              "color": "#ffffff"
-            },
-            ".mbr-article": {
-              "color": "#7c706b"
-            },
-            ".mbr-article P": {
-              "color": "#7c706b",
-              "font-size": "16px"
-            }
-          },
-          "headerAlign": "left",
-          "meta": "By John Smith posted July 30, 2015",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-3r"
-        },
-        {
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#7c706b",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">TRIMITE</a>",
-          "text1": "<strong>ADRESĂ</strong><br>Sector 1, București<br>România<br><br><b>LINKURI UTILE</b><br>http://romania-net.blogspot.ro/<br><br>",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>CONTACT\n</strong></p><p class=\"mbr-contacts__text\"><br></p><ul class=\"mbr-contacts__list\"><li>Email: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a>\n</li><li>Telefon: +40 0773 951 894 \n</li><li><br></li><li><br></li></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "iulia.juverdeanu@help-it-office.com",
-            "alerts": {
-              "success": "Vă muțumim pentru mesaj!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Nume*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Telefon"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Mesaj"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts3",
-          "_anchor": "contacts3-e",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "font-size": "16px"
-            },
-            "UL": {
-              "color": "#ffffff",
-              "font-size": "16px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#efefef",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "VREI SĂ AFLI NOUTĂȚI?&nbsp;",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">ÎNSCRIE-TE</a>",
-          "form": {
-            "action": "iulia.juvedeanu@help-it-office.com",
-            "alerts": {
-              "success": "Îți multumim!"
-            },
-            "fields": {
-              "email": {
-                "title": "Email",
-                "customTitle": "Adresa ta de email"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form2",
-          "_anchor": "form2-37",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-size": "20px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "inverse": false,
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5,
-            "counters": true,
-            "facebook": true,
-            "google": true,
-            "twitter": true
-          },
-          "text": "SHARE THIS PAGE!",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-b",
-          "_styles": {
-            ".mbr-header__text": {
-              "font-size": "15px"
-            }
-          }
-        }
-      ]
-    },
-    "page6.html": {
-      "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "servicii incluse casa ta basic",
-        "order": 3
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-v"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "PACHET BASIC<span style=\"font-weight: normal;\"> </span><br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-14",
-          "_styles": {
-            "H3": {
-              "color": "#000000"
-            }
-          }
-        },
-        {
-          "text": "<p><br></p><p>•\tDiagnosticare hardware/ software</p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 1 intervenție remote gratuită pe lună</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)\n</p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-x",
-          "_styles": {
-            "P": {
-              "color": "#7c706b",
-              "font-size": "15px"
-            }
-          }
-        },
-        {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-y"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": "80",
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352",
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
-          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-w",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page7.html": {
-      "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "servicii incluse casa ta standard",
-        "order": 4
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-z"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "PACHET STANDARD <br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-13",
-          "_styles": {
-            "H3": {
-              "color": "#7ac673"
-            }
-          }
-        },
-        {
-          "text": "<p><br></p><p>• Diagnosticare hardware/ software<br></p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>\n</p><p>•\tVerificare și configurare CATV</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 3 intervenții remote gratuite pe lună</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)\n</p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#7c706b",
-              "font-size": "15px"
-            }
-          },
-          "_anchor": "content1-10"
-        },
-        {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-11"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": "80",
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352",
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
-          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-12",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page8.html": {
-      "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "servicii incluse casa ta premium",
-        "order": 5
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-15"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "PACHET PREMIUM<br><span style=\"font-weight: normal;\">pentru Casa Ta</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_styles": {
-            "H3": {
-              "color": "#f97352"
-            }
-          },
-          "_anchor": "header3-16"
-        },
-        {
-          "text": "<p><br></p><p>• Diagnosticare hardware/ software<br></p><p>•\tVerificare, configurare, reconfigurare rețea\n</p><p>•\tVerificare și devirusare echipamente</p><p>\n</p><p>•\tVerificare și configurare CATV</p><p>•\tVerificare, configurare Sistem de supraveghere (până la 4 camere)</p><p>•\tConstatare defecte și propunerea soluțiilor pentru remediere \n</p><p>• 5 intervenții remote gratuite pe lună</p><p>•\t1 deplasare gratuită la client</p><p>• 1 curățare PC/ laptop (valabilă pentru contractele încheiate pentru un an)</p><p>•\tUpdate software rețea, politică de securitate, verificare conexiune din rețea si către rețea (o dată la 3 luni) \n</p><p>•\tUpdate baza de date antivirus rețea (o dată la 2 luni)\n</p><p>•\tBackup configurație rețea și acces rețea pentru echipamentele noastre (o dată la 3 luni)</p><p>\n</p><p>•\tSuport 24/24</p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#7c706b",
-              "font-size": "15px"
-            }
-          },
-          "_anchor": "content1-17"
-        },
-        {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-18"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": "80",
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352",
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
-          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-19",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page9.html": {
-      "settings": {
-        "meta_descr": "Web Builder Description",
-        "title": "afacere: laptop desktop",
-        "order": 7
-      },
-      "components": [
-        {
-          "_inherit": "msg-box1",
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "color": "#f97352"
-            },
-            ".mbr-article": {
-              "color": "#252525"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "paddingTop": 2,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "LAPTOP<br>DESKTOP",
-          "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">SUNĂ-NE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-1h"
-        },
-        {
-          "_params": {
-            "showHeader": false,
-            "showSubheader": false,
-            "showImages": true,
-            "showTitles": true,
-            "showCaptions": true,
-            "showButtons": false,
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "headerAlign": "left",
-          "header": "DROP-DEAD EASY WEBSITE MAKER",
-          "subheader": "By John Smith posted July 30, 2015",
-          "media1": {
-            "image": {
-              "src": "images/bootstrap.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "linkInNewWindow": false,
-              "name": "menu",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": "50",
-              "color": "#27aae0",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "title1": "DESPRE",
-          "caption1": "Accesul la documentele interne si colaborarea intre utilizatori reprezinta o nevoie de baza pentru orice companie. Modalitatea in care acest lucru se poate realiza intr-un mod sigur, fara a exista riscul ca documente sa fie accesate de un utilizator neautorizat si eficient, presupune gestiunea centralizata a accesului si a securitatii statiilor de lucru.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
-          "media2": {
-            "image": {
-              "src": "images/responsive.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "linkInNewWindow": false,
-              "name": "close",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": "50",
-              "color": "#f97352",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "title2": "RISCURI",
-          "caption2": "Un management defectuos sau chiar inexistent asupra statiilor de lucru poate cauza importante prejudicii pentru companie, cum ar fi scaderea productivitatii, costuri ridicate pentru mentenanta sistemelor si a echipamentelor sau perioade lungi de timp alocate acestor operatiuni.",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media3": {
-            "image": {
-              "src": "images/google-fonts.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "linkInNewWindow": false,
-              "name": "cash",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": "50",
-              "color": "#7ac673",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "title3": "BENEFICII",
-          "caption3": "O solutie de management a statiilor de lucru asigura securitatea accesului la statiile de lucru si a resurselor de tiparire si securitatea datelor stocate intr-o companie, precum si gestiunea controlata a utilizatorilor si a statiilor de lucru. Astfel, se obtine o productivitate crescuta a utilizatorilor prin minimizarea intreruperilor, reducerea timpilor necesari pentru operatiunile de mentenanta a sistemelor  care asigura buna functionare a acestora.",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media4": {
-            "image": {
-              "src": "images/unlimited-websites.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "linkInNewWindow": false,
-              "name": "key",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": "50",
-              "color": "#f7da64",
-              "newWindow": false,
-              "active": true
-            }
-          },
-          "title4": "SOLUȚII",
-          "caption4": "Exista mai multe solutii de managment si gestiune a resurselor.\n<br>Microsoft are Active Directory in Windows Server, cat si Windows Intune, varianta in cloud destinata in general companiilor cu un numar mai mic de calculatoare, ca o varianta la achizitionarea unui server.\n<br>Cu ajutorul solutiei de la Microsoft, se poate obtine, printre altele:\n<br>- Se pot defini politici de acces si de securitate, in functie de utilizatori sau grupuri de utilizatori, astfel exista controlul utilizatorilor si a resurselor pe care le pot utiliza.\n<br>- Se realizeaza cu usurinta partajarea fisierelor, intr-un mod sigur.\n<br>- Putem defini cine, la ce are acces, in functie de utilizator sau grupuri de utilizatori cand este cazul.\n<br>- De asemenea, putem defini permisiuni pentru un utilizator sau grupuri de utilizator.\n<br>Astfel, un anumit utilizator este impiedicat sa modifice sau sa stearga un fisier.\n<br>- Informatiile legate de fisierele din firma pot fi auditate in functie de nevoile specifice.\n<br>Se poate afla cand si ce utilizator a accesat un anumit fisier sau daca l-a modificat.\n<br>Politicile de grup pot activa sau dezactiva diverse optiuni si facilitati in timp real, fara a fi nevoie de interventia la fiecare echipament si diferentiat pe grupuri de utilizatori.\n<br>Astfel, poti fi prevenite modificari accidentale sau voite ale sistemelor, modificari care pot duce la pierderea de informatii.\n<br>Controlul instalarii de aplicatii din partea utilizatorilor se realizeaza, de asemenea, cu usurinta.\n<br>Pot defini usor cine, ce aplicatie poate sa foloseasca.\n<br>Mai mult, daca un anumit departament foloseste o noua aplicatie, aceasta poate fi instalata in mod automat la un anumit grup de utilizatori, fara sa fim nevoiti sa mergem la fiecare statie de lucru.\n<br>Microsoft ofera o granularitate mare in ceea ce priveste securitatea accesului la documente in cadrul companiei, cat si interactiunea utilizatorului cu statia de lucru.\n<br>Scenariile pot fi diferite si specificie fiecarei nevoi.\n<br>Pentru companiile cu un buget limitat avem Soft4IT.\n<br>Acesta permite monitorizarea, instalarea si dezinstalarea aplicatiilor de pe statiile de lucru.\n<br>De asemenea, verifica licentierea, daca licentele sunt la ultima versiune, cat si evenimentele legate de modificarea aplicatiilor. Partea de administrare se face centralizat, in cloud.\n<br>Cu ajutorul unui browser se pot vizualiza toate statiile de lucru, se pot defini grupuri si filtre pentru a simplifica cautarea si accesul la o anumita statie.",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media5": {
-            "image": {
-              "active": true,
-              "src": "images/blocks.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title5": "TRENDY WEBSITE BLOCKS",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "media6": {
-            "image": {
-              "active": true,
-              "src": "images/host.png",
-              "class": "mbr-figure__img",
-              "width": 600
-            },
-            "video": {
-              "class": "mbr-figure__img",
-              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features1",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title6": "HOST ANYWHERE",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_anchor": "features1-1g",
-          "_styles": {
-            "P": {
-              "font-size": "13px",
-              "color": "#7c706b"
-            },
-            ".mbr-section__col .mbr-header__text": {
-              "color": "#000000"
-            }
-          }
-        },
-        {
-          "_styles": {
-            ".mbr-header .mbr-header__text": {
-              "text-align": "center",
-              "color": "#f97352"
-            },
-            ".mbr-header .mbr-header__subtext": {
-              "text-align": "center"
-            },
-            ".mbr-article P": {
-              "font-size": "13px",
-              "color": "#7c706b"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showMeta": false,
-            "showCaption": "noCaption",
-            "showText": true,
-            "showButton": true,
-            "paddingTop": "1",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "darkBackground": false,
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "SOLUȚII",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p><br></p><p>Microsoft are Active Directory in Windows Server, cat si Windows Intune, varianta in cloud destinata in general companiilor cu un numar mai mic de calculatoare, ca o varianta la achizitionarea unui server.<br></p><p>\n</p><p>Cu ajutorul solutiei de la Microsoft:\n</p><p>\n</p><p>- Se pot defini politici de acces si de securitate, in functie de utilizatori sau grupuri de utilizatori, astfel exista controlul utilizatorilor si a resurselor pe care le pot utiliza;</p><p>\n</p><p>- Se realizeaza cu usurinta partajarea fisierelor, intr-un mod sigur;</p><p>\n</p><p>- Putem defini cine, la ce are acces, in functie de utilizator sau grupuri de utilizatori cand este cazul;</p><p>\n</p><p>- De asemenea, putem defini permisiuni pentru un utilizator sau grupuri de utilizator. Astfel, un anumit utilizator este impiedicat sa modifice sau sa stearga un fisier.</p><p>\n</p><p>- Informatiile legate de fisierele din firma pot fi auditate in functie de nevoile specifice.\n</p><p>\n</p><p>- Se poate afla cand si ce utilizator a accesat un anumit fisier sau daca l-a modificat.\n</p><p>\n</p><p>- Politicile de grup pot activa sau dezactiva diverse optiuni si facilitati in timp real, fara a fi nevoie de interventia la fiecare echipament si diferentiat pe grupuri de utilizatori. Astfel, poti fi prevenite modificari accidentale sau voite ale sistemelor, modificari care pot duce la pierderea de informatii.</p><p>\n</p><p>- Controlul instalarii de aplicatii din partea utilizatorilor se realizeaza, de asemenea, cu usurinta.\n</p><p>\n</p><p>- Pot defini usor cine, ce aplicatie poate sa foloseasca.\n</p><p>\n</p><p>- Mai mult, daca un anumit departament foloseste o noua aplicatie, aceasta poate fi instalata in mod automat la un anumit grup de utilizatori, fara sa fim nevoiti sa mergem la fiecare statie de lucru.\n</p><p>\n</p><p>Microsoft ofera o granularitate mare in ceea ce priveste securitatea accesului la documente in cadrul companiei, cat si interactiunea utilizatorului cu statia de lucru. Scenariile pot fi diferite si specificie fiecarei nevoi.</p><p><br></p><p>\n</p><p>Pentru companiile cu un buget limitat avem <b>Soft4IT</b>.\n</p><p>\n</p><p>Acesta permite monitorizarea, instalarea si dezinstalarea aplicatiilor de pe statiile de lucru.\n</p><p>\n</p><p>De asemenea, verifica licentierea, daca licentele sunt la ultima versiune, cat si evenimentele legate de modificarea aplicatiilor. Partea de administrare se face centralizat, in cloud.\n</p><p>\n</p><p>Cu ajutorul unui browser se pot vizualiza toate statiile de lucru, se pot defini grupuri si filtre pentru a simplifica cautarea si accesul la o anumita statie.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">ÎNTREABĂ-NE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-1l"
-        },
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1e"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": "80",
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352",
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
-          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-1f",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page10.html": {
+    "Afacerea_Ta_LAN_wireless.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: lan wireless",
@@ -2860,7 +2025,7 @@
         }
       ]
     },
-    "page11.html": {
+    "Afacerea_Ta_email_mobil.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: email mobil&nbsp;",
@@ -3240,7 +2405,7 @@
         }
       ]
     },
-    "page12.html": {
+    "Afacerea_Ta_virtualizare.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: virtualizare",
@@ -3620,7 +2785,387 @@
         }
       ]
     },
-    "page13.html": {
+    "Afacerea_Ta_laptop_desktop.html": {
+      "settings": {
+        "meta_descr": "Web Builder Description",
+        "title": "afacere: laptop desktop",
+        "order": 7
+      },
+      "components": [
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#f97352"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true,
+            "paddingTop": 2,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "LAPTOP<br>DESKTOP",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">SUNĂ-NE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1h"
+        },
+        {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "menu",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "50",
+              "color": "#27aae0",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title1": "DESPRE",
+          "caption1": "Accesul la documentele interne si colaborarea intre utilizatori reprezinta o nevoie de baza pentru orice companie. Modalitatea in care acest lucru se poate realiza intr-un mod sigur, fara a exista riscul ca documente sa fie accesate de un utilizator neautorizat si eficient, presupune gestiunea centralizata a accesului si a securitatii statiilor de lucru.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "close",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "50",
+              "color": "#f97352",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title2": "RISCURI",
+          "caption2": "Un management defectuos sau chiar inexistent asupra statiilor de lucru poate cauza importante prejudicii pentru companie, cum ar fi scaderea productivitatii, costuri ridicate pentru mentenanta sistemelor si a echipamentelor sau perioade lungi de timp alocate acestor operatiuni.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "cash",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "50",
+              "color": "#7ac673",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title3": "BENEFICII",
+          "caption3": "O solutie de management a statiilor de lucru asigura securitatea accesului la statiile de lucru si a resurselor de tiparire si securitatea datelor stocate intr-o companie, precum si gestiunea controlata a utilizatorilor si a statiilor de lucru. Astfel, se obtine o productivitate crescuta a utilizatorilor prin minimizarea intreruperilor, reducerea timpilor necesari pentru operatiunile de mentenanta a sistemelor  care asigura buna functionare a acestora.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "key",
+              "family": "MobiriseIcons",
+              "link": "",
+              "size": "50",
+              "color": "#f7da64",
+              "newWindow": false,
+              "active": true
+            }
+          },
+          "title4": "SOLUȚII",
+          "caption4": "Exista mai multe solutii de managment si gestiune a resurselor.\n<br>Microsoft are Active Directory in Windows Server, cat si Windows Intune, varianta in cloud destinata in general companiilor cu un numar mai mic de calculatoare, ca o varianta la achizitionarea unui server.\n<br>Cu ajutorul solutiei de la Microsoft, se poate obtine, printre altele:\n<br>- Se pot defini politici de acces si de securitate, in functie de utilizatori sau grupuri de utilizatori, astfel exista controlul utilizatorilor si a resurselor pe care le pot utiliza.\n<br>- Se realizeaza cu usurinta partajarea fisierelor, intr-un mod sigur.\n<br>- Putem defini cine, la ce are acces, in functie de utilizator sau grupuri de utilizatori cand este cazul.\n<br>- De asemenea, putem defini permisiuni pentru un utilizator sau grupuri de utilizator.\n<br>Astfel, un anumit utilizator este impiedicat sa modifice sau sa stearga un fisier.\n<br>- Informatiile legate de fisierele din firma pot fi auditate in functie de nevoile specifice.\n<br>Se poate afla cand si ce utilizator a accesat un anumit fisier sau daca l-a modificat.\n<br>Politicile de grup pot activa sau dezactiva diverse optiuni si facilitati in timp real, fara a fi nevoie de interventia la fiecare echipament si diferentiat pe grupuri de utilizatori.\n<br>Astfel, poti fi prevenite modificari accidentale sau voite ale sistemelor, modificari care pot duce la pierderea de informatii.\n<br>Controlul instalarii de aplicatii din partea utilizatorilor se realizeaza, de asemenea, cu usurinta.\n<br>Pot defini usor cine, ce aplicatie poate sa foloseasca.\n<br>Mai mult, daca un anumit departament foloseste o noua aplicatie, aceasta poate fi instalata in mod automat la un anumit grup de utilizatori, fara sa fim nevoiti sa mergem la fiecare statie de lucru.\n<br>Microsoft ofera o granularitate mare in ceea ce priveste securitatea accesului la documente in cadrul companiei, cat si interactiunea utilizatorului cu statia de lucru.\n<br>Scenariile pot fi diferite si specificie fiecarei nevoi.\n<br>Pentru companiile cu un buget limitat avem Soft4IT.\n<br>Acesta permite monitorizarea, instalarea si dezinstalarea aplicatiilor de pe statiile de lucru.\n<br>De asemenea, verifica licentierea, daca licentele sunt la ultima versiune, cat si evenimentele legate de modificarea aplicatiilor. Partea de administrare se face centralizat, in cloud.\n<br>Cu ajutorul unui browser se pot vizualiza toate statiile de lucru, se pot defini grupuri si filtre pentru a simplifica cautarea si accesul la o anumita statie.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1g",
+          "_styles": {
+            "P": {
+              "font-size": "13px",
+              "color": "#7c706b"
+            },
+            ".mbr-section__col .mbr-header__text": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#f97352"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article P": {
+              "font-size": "13px",
+              "color": "#7c706b"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": false,
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "SOLUȚII",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><br></p><p>Microsoft are Active Directory in Windows Server, cat si Windows Intune, varianta in cloud destinata in general companiilor cu un numar mai mic de calculatoare, ca o varianta la achizitionarea unui server.<br></p><p>\n</p><p>Cu ajutorul solutiei de la Microsoft:\n</p><p>\n</p><p>- Se pot defini politici de acces si de securitate, in functie de utilizatori sau grupuri de utilizatori, astfel exista controlul utilizatorilor si a resurselor pe care le pot utiliza;</p><p>\n</p><p>- Se realizeaza cu usurinta partajarea fisierelor, intr-un mod sigur;</p><p>\n</p><p>- Putem defini cine, la ce are acces, in functie de utilizator sau grupuri de utilizatori cand este cazul;</p><p>\n</p><p>- De asemenea, putem defini permisiuni pentru un utilizator sau grupuri de utilizator. Astfel, un anumit utilizator este impiedicat sa modifice sau sa stearga un fisier.</p><p>\n</p><p>- Informatiile legate de fisierele din firma pot fi auditate in functie de nevoile specifice.\n</p><p>\n</p><p>- Se poate afla cand si ce utilizator a accesat un anumit fisier sau daca l-a modificat.\n</p><p>\n</p><p>- Politicile de grup pot activa sau dezactiva diverse optiuni si facilitati in timp real, fara a fi nevoie de interventia la fiecare echipament si diferentiat pe grupuri de utilizatori. Astfel, poti fi prevenite modificari accidentale sau voite ale sistemelor, modificari care pot duce la pierderea de informatii.</p><p>\n</p><p>- Controlul instalarii de aplicatii din partea utilizatorilor se realizeaza, de asemenea, cu usurinta.\n</p><p>\n</p><p>- Pot defini usor cine, ce aplicatie poate sa foloseasca.\n</p><p>\n</p><p>- Mai mult, daca un anumit departament foloseste o noua aplicatie, aceasta poate fi instalata in mod automat la un anumit grup de utilizatori, fara sa fim nevoiti sa mergem la fiecare statie de lucru.\n</p><p>\n</p><p>Microsoft ofera o granularitate mare in ceea ce priveste securitatea accesului la documente in cadrul companiei, cat si interactiunea utilizatorului cu statia de lucru. Scenariile pot fi diferite si specificie fiecarei nevoi.</p><p><br></p><p>\n</p><p>Pentru companiile cu un buget limitat avem <b>Soft4IT</b>.\n</p><p>\n</p><p>Acesta permite monitorizarea, instalarea si dezinstalarea aplicatiilor de pe statiile de lucru.\n</p><p>\n</p><p>De asemenea, verifica licentierea, daca licentele sunt la ultima versiune, cat si evenimentele legate de modificarea aplicatiilor. Partea de administrare se face centralizat, in cloud.\n</p><p>\n</p><p>Cu ajutorul unui browser se pot vizualiza toate statiile de lucru, se pot defini grupuri si filtre pentru a simplifica cautarea si accesul la o anumita statie.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a>  <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">ÎNTREABĂ-NE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-1l"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1e"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": "80",
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-1f",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "Afacerea_Ta_securitate.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: securitate",
@@ -4000,7 +3545,7 @@
         }
       ]
     },
-    "page14.html": {
+    "Afacerea_Ta_backup.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: backup",
@@ -4377,7 +3922,7 @@
         }
       ]
     },
-    "page15.html": {
+    "Afacerea_Ta_telefonieIP.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: telefonie IP",
@@ -4754,7 +4299,7 @@
         }
       ]
     },
-    "page16.html": {
+    "Afacerea_Ta_UPS.html": {
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "afacere: UPS",
@@ -5131,7 +4676,7 @@
         }
       ]
     },
-    "page17.html": {
+    "Start_Afacerea_Ta.html": {
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "servicii incluse afacere start",
@@ -5287,160 +4832,7 @@
         }
       ]
     },
-    "page18.html": {
-      "settings": {
-        "meta_descr": "Website Builder Description",
-        "title": "servicii incluse afacere premiun&nbsp;",
-        "order": 17
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "showButtons": true,
-            "sticky": true,
-            "collapsed": false,
-            "transparent": false,
-            "color": "#2c2c2c",
-            "hamburgerColor": "#ffffff"
-          },
-          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".mbr-brand__name": {
-              "font-size": "16px"
-            },
-            "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__section": {
-              "background": "#2c2c2c"
-            },
-            ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
-            }
-          },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
-              "class": "mbr-navbar__brand-img mbr-brand__img",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352"
-            }
-          },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-2r"
-        },
-        {
-          "_params": {
-            "showMeta": true
-          },
-          "title": "PACHET PREMIUM<br><span style=\"font-weight: normal;\">pentru Afacerea Ta</span>",
-          "meta": "",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_styles": {
-            "H3": {
-              "color": "#f97352"
-            }
-          },
-          "_anchor": "header3-2s"
-        },
-        {
-          "text": "<p><br></p><p>•\tDiagnosticare hardware/ software și stabilirea necesității de înlocuire a acestora;\n</p><p>•\tDepanare hardware/software la punctul de lucru al clientului sau în laboratorul propriu, dacă intervenția necesită aparatură specifică;\n</p><p>•\tDevirusare, interzicererea accesului echipamentelor virusate în rețea;\n</p><p>•\tConstatare defect și propunere de soluții pentru remedierea acestuia; interzicere temporară în rețea a echipamentului defect până la remediere;\n</p><p>•\tBack-up date (se realizează pentru configurație și setări rețea, pe echipamentele prestatorului; back-ul este encremental și se realizează la 24 ore, o dată pe săptămână, la 31 zile);\n</p><p>•\tOperațiuni de întreținere și actualizare pentru sistemul de operare și aplicații pentru echipamentele clientului;</p><p>• Verificarea, identificarea și eliminarea aplicațiilor suspecte (viruși, viermi, troieni, malware, adware, spyware, etc.);</p><p>•\tRepunerea în funcțiune a echipamentelor, prin înlăturarea defectelor constatate sau prin înlocuirea subansamblelor defecte cu altele funcționale, la solicitarea clientului/cu acordul său, garanția echipamentelor înlocuite fiind cea acordată de furnizorul de echipamente;</p><p>o\tVerificare, configurare, reconfigurare rețea;</p><p>o\tVerificare și devirusare echipamente client;</p><p>o\tUpdate software rețea, politica de securitate, verificare conexiune din rețea și către rețea (o dată la 3 luni);</p><p>o\tUpdate baza de date antivirus rețea (dacă echipamentul deține antivirus, o dată la 2 luni);</p><p>o\tBackup configurație rețea și acces rețea (o dată la 3 luni pe echipamentele H4IT);</p><p>o\tAsigurarea, contra cost, a pieselor consumabile sau de schimb;</p><p>o\t<b>10 intervenții remote gratuite pe lună;</b></p><p>o <b>3&nbsp;intervenții gratuite pe lună;</b></p><p>•\tTimp de răspuns la sesizările clientului în maxim 4 (patru) ore de la momentul solicitării telefonice, pentru interventiile remote.</p><p><br></p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_styles": {
-            "P": {
-              "color": "#7c706b",
-              "font-size": "15px"
-            }
-          },
-          "_anchor": "content1-2t"
-        },
-        {
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-2u"
-        },
-        {
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": "80",
-              "active": true,
-              "linkInNewWindow": false,
-              "name": "features",
-              "family": "MobiriseIcons",
-              "color": "#f97352",
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
-          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-2v",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          }
-        }
-      ]
-    },
-    "page19.html": {
+    "Optim_Afacerea_Ta.html": {
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "servicii incluse afacere optim",
@@ -5593,7 +4985,160 @@
         }
       ]
     },
-    "page20.html": {
+    "Premium_Afacerea_Ta.html": {
+      "settings": {
+        "meta_descr": "Website Builder Description",
+        "title": "servicii incluse afacere premiun&nbsp;",
+        "order": 17
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2r"
+        },
+        {
+          "_params": {
+            "showMeta": true
+          },
+          "title": "PACHET PREMIUM<br><span style=\"font-weight: normal;\">pentru Afacerea Ta</span>",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_styles": {
+            "H3": {
+              "color": "#f97352"
+            }
+          },
+          "_anchor": "header3-2s"
+        },
+        {
+          "text": "<p><br></p><p>•\tDiagnosticare hardware/ software și stabilirea necesității de înlocuire a acestora;\n</p><p>•\tDepanare hardware/software la punctul de lucru al clientului sau în laboratorul propriu, dacă intervenția necesită aparatură specifică;\n</p><p>•\tDevirusare, interzicererea accesului echipamentelor virusate în rețea;\n</p><p>•\tConstatare defect și propunere de soluții pentru remedierea acestuia; interzicere temporară în rețea a echipamentului defect până la remediere;\n</p><p>•\tBack-up date (se realizează pentru configurație și setări rețea, pe echipamentele prestatorului; back-ul este encremental și se realizează la 24 ore, o dată pe săptămână, la 31 zile);\n</p><p>•\tOperațiuni de întreținere și actualizare pentru sistemul de operare și aplicații pentru echipamentele clientului;</p><p>• Verificarea, identificarea și eliminarea aplicațiilor suspecte (viruși, viermi, troieni, malware, adware, spyware, etc.);</p><p>•\tRepunerea în funcțiune a echipamentelor, prin înlăturarea defectelor constatate sau prin înlocuirea subansamblelor defecte cu altele funcționale, la solicitarea clientului/cu acordul său, garanția echipamentelor înlocuite fiind cea acordată de furnizorul de echipamente;</p><p>o\tVerificare, configurare, reconfigurare rețea;</p><p>o\tVerificare și devirusare echipamente client;</p><p>o\tUpdate software rețea, politica de securitate, verificare conexiune din rețea și către rețea (o dată la 3 luni);</p><p>o\tUpdate baza de date antivirus rețea (dacă echipamentul deține antivirus, o dată la 2 luni);</p><p>o\tBackup configurație rețea și acces rețea (o dată la 3 luni pe echipamentele H4IT);</p><p>o\tAsigurarea, contra cost, a pieselor consumabile sau de schimb;</p><p>o\t<b>10 intervenții remote gratuite pe lună;</b></p><p>o <b>3&nbsp;intervenții gratuite pe lună;</b></p><p>•\tTimp de răspuns la sesizările clientului în maxim 4 (patru) ore de la momentul solicitării telefonice, pentru interventiile remote.</p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "color": "#7c706b",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "content1-2t"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">ÎNAPOI</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"page4.html\" data-toolbar=\"-mbrBtnMove\">CUMPĂRĂ</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2u"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "https://mobirise.com",
+              "size": "80",
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2v",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "Solutii_software.html": {
       "settings": {
         "meta_descr": "Web Generator Description",
         "title": "Solutii software",
@@ -5928,7 +5473,7 @@
         }
       ]
     },
-    "page22.html": {
+    "Articole.html": {
       "settings": {
         "meta_descr": "Web Page Maker Description",
         "title": "articole",
@@ -6469,6 +6014,461 @@
             }
           },
           "_anchor": "contacts1-3p"
+        }
+      ]
+    },
+    "Contact.html": {
+      "settings": {
+        "meta_descr": "Web Site Maker Description",
+        "title": "Contact",
+        "order": 20
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-8"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-3-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "HAI SĂ NE CUNOAȘTEM!",
+          "text": "<p>Dacă ai întrebări despre noi, despre serviciile noastre sau pur și simplu vrei un sfat, sună-ne sau scrie-ne. Îți vom răspunde în cel mai scurt timp.</p><p><br></p><p>Echipa HELP FOR IT OFFICE</p><p><br></p><p>Email: office@help-it-office.com\n</p><p>Telefon: +40 0773 951 894</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#000000"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#7c706b"
+            },
+            ".mbr-article P": {
+              "color": "#7c706b",
+              "font-size": "16px"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-3r"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#7c706b",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">TRIMITE</a>",
+          "text1": "<strong>ADRESĂ</strong><br>Sector 1, București<br>România<br><br><b>LINKURI UTILE</b><br>http://romania-net.blogspot.ro/<br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>CONTACT\n</strong></p><p class=\"mbr-contacts__text\"><br></p><ul class=\"mbr-contacts__list\"><li>Email: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a>\n</li><li>Telefon: +40 0773 951 894 \n</li><li><br></li><li><br></li></ul>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "iulia.juverdeanu@help-it-office.com",
+            "alerts": {
+              "success": "Vă muțumim pentru mesaj!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nume*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone",
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mesaj"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts3",
+          "_anchor": "contacts3-e",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "16px"
+            },
+            "UL": {
+              "color": "#ffffff",
+              "font-size": "16px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "VREI SĂ AFLI NOUTĂȚI?&nbsp;",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">ÎNSCRIE-TE</a>",
+          "form": {
+            "action": "iulia.juvedeanu@help-it-office.com",
+            "alerts": {
+              "success": "Îți multumim!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Adresa ta de email"
+              }
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-37",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "inverse": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "SHARE THIS PAGE!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-b",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-size": "15px"
+            }
+          }
+        }
+      ]
+    },
+    "Acasă_help_for_IT_office.html": {
+      "settings": {
+        "main": true,
+        "title": "Acasă",
+        "meta_descr": "Tehnologia în grija noastră!\nÎți oferim consultanță IT&C, achiziție, configurare, instalare, mentenanță și service pentru hardware PC/ desktop/ laptop, imprimante, smartphone, software, rețea și securitate IT.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-link\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">ACASĂ</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">DESPRE NOI</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page1.html\">CASA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page3.html\">AFACEREA TA</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page20.html\">SOFTWARE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page22.html\">ARTICOLE</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page4.html\">CONTACT</a></li>    ",
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/vector%20icons%20collection-640x1136.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "active": true,
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "color": "#f97352"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">HELP FOR IT OFFICE</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f97352",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-4-1400x933.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "HELP FOR IT OFFICE<br><br>",
+          "text": "<p>Tehnologia îți dă bătăi de cap?</p><p>Las-o în grija noastră!</p><p><br></p><p>Îți oferim consultanță, achiziție, configurare, mentenanță și service pentru hardware, software, rețea și securitate IT.</p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff",
+              "text-align": "left",
+              "font-size": "25px"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">AFLĂ MAI MULTE</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">CASA TA</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">AFACEREA TA</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/08-desktop-256x256.png",
+              "class": "mbr-contacts__img mbr-contacts__img--left",
+              "width": 265,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
+              "link": "https://mobirise.com",
+              "size": "80",
+              "active": true,
+              "color": "#f97352",
+              "newWindow": false
+            }
+          },
+          "text1": "<strong>ADRESĂ</strong><br>București, Sector 1<br>România",
+          "text2": "<strong>CONTACT</strong><br>\nEmail: <a href=\"mailto:office@help-it-office.com\" class=\"text-white\">office@help-it-office.com</a><br>\nTel: +40 773 951 894<br><br>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">http://romania-net.blogspot.ro/</a></li><li><br></li></ul>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-l",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
         }
       ]
     }
